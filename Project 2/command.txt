@@ -1,0 +1,7 @@
+# ALU test
+iverilog -o alu_test ALU.v ALU_TB.v
+vvp alu_test
+
+# RF test
+iverilog -o rf_test RF.v RF_TB.v
+vvp rf_test
